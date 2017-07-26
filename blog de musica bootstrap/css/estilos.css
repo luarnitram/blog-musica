@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*   ENCABEZADO   ----------------------------------------*/
+
+
+#logo{
+	width:60px;
+	margin-top:40px;
+	margin-left:25px;	
+}
+
+.encabezado{
+	background-color: crimson;
+	height:15rem;
+}
+.texto-noticias{
+	padding:5px;
+	margin:0;
+}
+
+
+.logos-social{
+	margin-top:10rem;
+}
+
+
+/*   CONTENIDO -------------------------------------------*/
+
+
+.noticias{
+	height:auto;
+	background-color:aquamarine;
+	flex-wrap: inline-flex;
+}
+
+.comentario{
+	padding:15px;
+	height:9rem;
+	width:auto;
+}
+.img-noticia{
+	width:100%;
+	margin:10px;
+}
+
+.persona{
+	width:6rem;
+}
+
+.boton-persona{
+	margin-right:10px;
+}
+
+
+
+/* barra lateral */
+
+
+.barra-lateral{
+	height:70rem;
+}
+
+.busqueda{
+	background-color:aqua;
+	height:7rem;
+	padding:1rem;
+}
+
+.boton-buscar{
+	width:80%;
+}
+
+.opciones-busqueda{
+	background-color:seagreen;
+	height:auto;
+	padding-top:20px;
+	
+}
+
+
+
+@media (max-width:992px){
+	.encabezado{
+		height:30rem;
+	}
+	.barra-lateral{
+		display:none;
+	}
+	.noticias{
+		height:auto;
+		text-align:center;
+			align-content: center;
+
+	}
+	.img-noticia{
+		width:auto;
+		max-width:350px;
+	}
+	
+	.comentario{
+		display:inline-flex;
+	}
+	
+}
